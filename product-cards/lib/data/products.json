@@ -1,0 +1,38 @@
+[
+{
+"name": "Aether Chaser",
+"number": "ArtNr.: 25045",
+"color": "Farbe Red (rot)",
+"rarity": "Rarität Common (gewöhnlich)",
+"edition": "Edition Aether Revolt",
+"status": "Zustand near mint - mint (nahezu ungespielt - ungespielt)",
+"picture_name": "aether_chaser.jpg"
+},
+{
+"name": "Aether Swooper",
+"number": "ArtNr.: 25049",
+"color": "Farbe Blue (blau)",
+"rarity": "Rarität Common (gewöhnlich)",
+"edition": "Edition Aether Revolt",
+"status": "Zustand near mint - mint (nahezu ungespielt - ungespielt)",
+"picture_name": "aether_swooper.jpg"
+},
+{
+"name": "Marionette Master",
+"number": "ArtNr.: 24551",
+"color":" Farbe Black (schwarz)",
+"rarity": "Rarität Rare (selten)",
+"edition": "Edition Kaladesh",
+"status": "Zustand near mint - mint (nahezu ungespielt - ungespielt)",
+"picture_name": "marionette_master.jpg"
+},
+{
+"name": "Metalwork Colossus",
+"number": "ArtNr.: 24557",
+"color":" Farbe Artifact (Artefakt)",
+"rarity": "Rarität Rare (selten)",
+"edition": "Edition Kaladesh",
+"status": "Zustand 0",
+"picture_name": "metalwork_colossus.jpg"
+}
+]

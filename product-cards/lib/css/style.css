@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+html {
+    background: url(../img/magic/landing_page/bild1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+    width:800px;
+    min-height:900px;
+    margin:0 auto;
+    padding: 80px;
+    overflow:hidden;
+}
+
+#preview {
+    overflow:hidden;
+}
+
+#preview li {
+    margin:10px;
+    list-style-type: none;
+    display:inline-block;
+}
+
+#preview li img {
+    width:150px;
+    height:auto;
+}
+
+#preview li span {
+   display:block;
+}
+
+#main {
+    margin-bottom: 20px;
+}
+
+#info {
+    padding: 15px;
+    overflow:hidden;
+}
+
+#infotext img{
+    float:left;
+    margin-right:30px;
+}
+#infotext ul li {
+    list-style-type: none;
+}
+
+#infotext input {
+    width:35px;
+}
