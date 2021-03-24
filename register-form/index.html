@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register form</title>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="../lib/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../lib/js/jquery/jquery-3.5.1.js"><\/script>');
+  </script>
+  <script src="../lib/js/jquery.validate.min.js"></script>
+  <script src="../lib/js/additional-methods.min.js"></script>
+  <script src="../lib/js/validation.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <b>&lt;noscript&gt;</b> Tag. Um das Benutzererlebnis zu verbessern benötigen Sie aktives JavaScript in Ihrem
+      Browser.
+    </noscript>
+  <div class="container">
+    <form method="post" action="#" name="register">
+      <div class="one-third column">
+        <img src="../lib/img/logo.png" alt="logo" id="logo" />
+        <h2 class="welcome">Become a Member</h2>
+        <p class="intro">Welcome to the Super 8 Film Society. We are a group of film enthusiasts who meet up each month to watch old movies on film, in our own private cinema. We also create our own short film each year, which is entered into film competitions worldwide.</p>
+      </div>
+      <div class="one-third column">
+        <h2>Settings</h2>
+          <div class="name">
+            <label for="name" class="required">Name:</label>
+            <input type="text" placeholder="Enter your name" name="name" id="name" required title="Please enter your name">
+          </div>
+          <div class="email">
+            <label for="email" class="required">Email:</label>
+            <input type="email" placeholder="you@example.com" name="email" id="email" required>
+          </div>
+          <div class="password">
+            <label for="password" class="required">Password:</label>
+            <input type="password" name="password" id="password" required>
+          </div>
+          <div class="password">
+            <label for="conf-password" class="required">Confirm password:</label>
+            <input type="password" name="conf-password" id="conf-password" required>
+          </div>
+		 <div class="register"><input type="submit" value="Register"></div>
+      </div>
+      
+    </form>
+  </div><!-- .container -->
+  </body>
+</html>
