@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Timetable</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../lib/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../lib/js/jquery/jquery-3.5.1.js"><\/script>');
+    </script>
+    <script src="../lib/js/timetable.js"></script>
+</head>
+
+<body>
+    <noscript>
+      <b>&lt;noscript&gt;</b> Tag. Um das Benutzererlebnis zu verbessern benötigen Sie aktives JavaScript in Ihrem
+      Browser.
+    </noscript>
+
+    <header>
+        <h1>THE MAKER BUS</h1>
+        <nav>
+            <a href="jq-load.html">HOME</a>
+            <a href="jq-load2.html">ROUTE</a>
+            <a href="jq-load3.html">TOYS</a>
+            <a href="example.html" class="current">TIMETABLE</a>
+        </nav>
+    </header>
+
+    <section id="content">
+        <div id="container">
+            <h2>Roll up! Roll up! It's the maker bus...</h2>
+
+            <div class="third">
+                <div id="event">
+                    <a id="ca" href="ca.html"><img src="../lib/img/map-ca.png" alt="San Francisco" />San Francisco, CA</a>
+                    <a id="tx" href="tx.html"><img src="../lib/img/map-tx.png" alt="Austin, TX" />Austin, TX</a>
+                    <a id="ny" href="ny.html"><img src="../lib/img/map-ny.png" alt="New York, NY" />New York, NY</a>
+                </div>
+            </div>
+            <div class="third">
+                <div id="sessions">
+                    <p>Select an event from the left</p>
+                </div>
+            </div>
+            <div class="third">
+                <div id="details"></div>
+            </div>
+
+        </div>
+        <!-- #container -->
+    </section>
+    <!-- #content -->
+</body>
+
+</html>
