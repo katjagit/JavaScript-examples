@@ -1,1 +1,1 @@
-Example of product preview for a shop, made without JQuery.
+Example of a product preview for a shop, made without JQuery.
